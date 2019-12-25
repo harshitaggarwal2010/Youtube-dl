@@ -9,3 +9,5 @@ youtube-dl -f 22 -i -o "Path/%(playlist_title)s/%(playlist_index)s - %(title)s.%
 youtube-dl -f 22 -i -o "Path/%(title)s.%(ext)s" https://www.youtube.com/watch?v=HVsySz-h9r4
 
 -f 22 refers to 720p quality.
+-o specifies output format
+-i ignore errors and continue to download
